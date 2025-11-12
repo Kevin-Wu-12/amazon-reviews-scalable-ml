@@ -32,6 +32,7 @@ It automates the process of loading, cleaning, transforming, and modeling data a
 ---
 ## 📂 Project Structure
 
+```
 .
 ├── amazon_reviews_pipeline.py     # Main pipeline script with all 8 PySpark + Dask tasks
 ├── pa2_main.py                    # Orchestrator that initializes Spark and executes tasks
@@ -50,3 +51,4 @@ It automates the process of loading, cleaning, transforming, and modeling data a
 ├── requirements.txt               # Python dependencies for reproducibility
 ├── README.md                      # Project documentation and usage guide
 └── .gitignore                     # Files and folders ignored by Git (e.g., /data, /results, *.log)
+```

@@ -30,25 +30,3 @@ It automates the process of loading, cleaning, transforming, and modeling data a
 | Visualization | Plotly, Matplotlib |
 
 ---
-## 📂 Project Structure
-
-```
-.
-├── amazon_reviews_pipeline.py     # Main pipeline script with all 8 PySpark + Dask tasks
-├── pa2_main.py                    # Orchestrator that initializes Spark and executes tasks
-├── utilities.py                   # Helper module for data I/O and result management
-│
-├── data/                          # Input datasets (e.g., Amazon product metadata and reviews)
-│   ├── reviews.json.gz
-│   ├── metadata.json.gz
-│   └── ...
-│
-├── results/                       # Generated JSON outputs and evaluation metrics
-│   ├── compute_rating_stats.json
-│   ├── analyze_related_products.json
-│   └── ...
-│
-├── requirements.txt               # Python dependencies for reproducibility
-├── README.md                      # Project documentation and usage guide
-└── .gitignore                     # Files and folders ignored by Git (e.g., /data, /results, *.log)
-```
